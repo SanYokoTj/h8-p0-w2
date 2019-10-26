@@ -1,0 +1,78 @@
+//1. Newton Second Law
+
+//Algoritma
+
+1. Tentukan rumus "F".
+2. Tentukan nilai massa "mass".
+3. Tentukan nilai percepatan "acceleration".
+4. Hitung hasil perkalian "mass" dengan "acceleration".
+
+//Pseudocode
+
+STORE "mass" WITH any value
+STORE "acceleration" WITH any value
+STORE "F" WITH any value
+
+CALCULATE "mass" TIMES "acceleration"
+SET "F" value with calculation result
+
+DISPLAY "F"
+
+//2. Tahun Kabisat
+
+//Algoritma
+
+1. Tentukan tahun.
+2. Jika tahun habis dibagi 4 dan tidak habis dibagi 100, maka tahun kabisat.
+3. Jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400, maka tahun kabisat.
+
+//Pseudocode
+
+SET "tahun" with any value 
+IF (tahun % 4 = 0 && tahun % 100 != 0) || (tahun % 4 = 0 && tahun % 100 != 0 && tahun % 400 = 0)
+  DO DISPLAY "Tahun Kabisat"
+END IF
+
+
+//3. Laundry Day
+
+//Algoritma
+
+1. Tentukan jumlah pakaian yang akan dicuci.
+2. Jika semua pakaian telah dimasukkan, maka mesin cuci akan dinyalakan.
+
+//Pseudocode
+
+SET "shirt" with any value
+WHILE ("shirt" < 20)
+  DO DISPLAY shirt(shirt+1)
+BUMP
+IF ("shirt" = 20)
+  DO DISPLAY "ready!"
+END IF
+END WHILE
+
+
+//4. Periksa Kuku
+
+//Algoritma
+
+1. Tentukan "Students" dengan 0.
+2. Ketika "Students" < 40 lakukan tahap selanjutnya, selain itu langsung tahap END WHILE.
+3. Jika siswa memiliki kuku panjang, maka tampilkan "Dihukum Guru". Jika siswa tidak memiliki kuku panjang, maka tampilkan "Dipuji Guru".
+4. Di akhir, tampilkan "Seluruh siswa harus menaati peraturan yang berlaku!".
+
+//Pseudocode
+
+SET "Students" with value 0
+
+WHILE(Students < 40)
+  IF(Students === "Kuku Panjang")
+    DISPLAY ("Dihukum Guru")
+  ELSE
+  	DISPLAY ("Dipuji Guru")
+  END IF
+  BUMP
+END WHILE
+
+DISPLAY "Seluruh siswa harus menaati peraturan yang berlaku!"
